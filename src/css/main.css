@@ -1,0 +1,42 @@
+body {
+	/* background-image: url("../img/maingif.gif"); */
+	background-image: url("../img/mainimg.png");
+	background-size: cover;
+	margin: 0;
+	width: 408px;
+	height: 664px;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	width: 125.65px;
+	height: 33.64px;
+	margin-left: 26px;
+	margin-top: 26px;
+}
+
+.bubble img {
+	position: absolute;
+	width: 280px;
+	height: 90px;
+	margin-left: 69px;
+	margin-top: 30px;
+}
+
+.menucontainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 400px;
+}
+
+.menucontainer img {
+	width: 115px;
+	height: 122px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

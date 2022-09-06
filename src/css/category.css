@@ -1,0 +1,30 @@
+body {
+	background-color: rgba(248, 249, 255, 1);
+	margin: 0;
+	width: 408px;
+	height: 664px;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	width: 125.65px;
+	height: 33.64px;
+	margin-left: 26px;
+	margin-top: 26px;
+}
+
+.pickmenu img {
+	width: 332px;
+	height: 76px;
+    margin-top: 20px;
+}
+
+.pickmenu{
+    display: flex;
+    justify-content: center;
+}

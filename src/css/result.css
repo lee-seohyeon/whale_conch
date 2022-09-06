@@ -1,0 +1,14 @@
+body {
+	background-image: url("../img/maingif.gif");
+	/* background-image: url("../img/mainimg.png"); */
+	background-size: cover;
+	margin: 0;
+	width: 408px;
+	height: 664px;
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
