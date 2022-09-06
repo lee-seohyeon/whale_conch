@@ -22,7 +22,7 @@ html {
 	width: 332px;
 	height: 76px;
 	margin-top: 20px;
-    margin-bottom: 78px;
+    margin-bottom: 60px;
 }
 
 .pickmenu {
@@ -40,6 +40,7 @@ html {
 .ca-bu {
     font-family: 'SUIT';
     color: rgba(75, 75, 75, 1);
+    font-size: 15px;
 	background-color: white;
 	width: 114px;
 	height: 32px;
