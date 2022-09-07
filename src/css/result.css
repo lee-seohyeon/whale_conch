@@ -1,6 +1,5 @@
 body {
-	background-image: url("../img/maingif.gif");
-	/* background-image: url("../img/mainimg.png"); */
+	background-image: url("../img/mainimg.png");
 	background-size: cover;
 	margin: 0;
 	width: 408px;
@@ -11,4 +10,25 @@ html {
 	background-color: white;
 	display: flex;
 	justify-content: center;
+}
+
+.gifcon img {
+	width: 534px;
+	height: 667px;
+	transform: translate(-57px, -99px);
+}
+
+.gifcon {
+	width: 408px;
+	height: 664px;
+	overflow: hidden;
+}
+
+.bubblecon {
+	position: absolute;
+    z-index: 10000;
+}
+
+.maincon{
+    position: relative;
 }
