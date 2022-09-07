@@ -1,6 +1,8 @@
 body {
-	background-image: url("../img/mainimg.png");
-	background-size: cover;
+	background-image: url("../img/maingif.gif"), url("../img/mainimg.png");
+	background-size: 534px 667px, cover;
+    background-repeat:no-repeat;
+    background-position: -55px -99px, 0 0;
 	margin: 0;
 	width: 408px;
 	height: 664px;
@@ -26,9 +28,9 @@ html {
 
 .bubblecon {
 	position: absolute;
-    z-index: 10000;
+	z-index: 10000;
 }
 
-.maincon{
-    position: relative;
+.maincon {
+	position: relative;
 }
