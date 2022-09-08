@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="../css/question.css" />
+		<script defer src="../js/question.js"></script>
 	</head>
 	<body>
 		<div class="logo">
@@ -17,12 +18,29 @@
 		</div>
 		<div class="questionbox-con">
 			<!-- <input class="questionbox" placeholder="소라고동에게 질문을 입력해주세요!"></input> -->
-            <textarea class="questionbox" placeholder="소라고동에게 질문을 입력해주세요!"></textarea>
+			<textarea
+				class="questionbox"
+				placeholder="소라고동에게 질문을 입력해주세요!"
+			></textarea>
 		</div>
 
 		<div class="bt-con">
 			<a class="back bt" href="./main.html">뒤로가기</a>
 			<a class="go bt" href="./q-result.html">질문하기</a>
+		</div>
+
+		<!-- 모달창 시작 -->
+
+		<button class="openBtn">모달창 open</button>
+		<div class="modal hidden">
+			<div class="bg"></div>
+			<div class="modalBox">
+				<img class="q-mark" src="../img/q-mark.png" />
+				<p>10자 이상, 100자 이하로</p>
+				<p>질문을 작성해주세요!</p>
+
+				<button class="closeBtn">닫기</button>
+			</div>
 		</div>
 	</body>
 </html>

@@ -2,5 +2,7 @@
     "manifest_version":2,
     "name":"conch",
     "version":"1.0.0",
-    "sidebar-action":"main.html"
+    "sidebar-action": {
+        "default_page": "html/main.html"
+} 
 }
