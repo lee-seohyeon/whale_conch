@@ -1,0 +1,102 @@
+body {
+	background-color: rgb(255, 255, 255);
+	margin: 0;
+	width: 408px;
+	height: 664px;
+	font-family: "SUIT";
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	width: 125.65px;
+	height: 33.64px;
+	margin-left: 26px;
+	margin-top: 26px;
+}
+
+.conch img {
+	width: 152px;
+	height: 152px;
+	margin-bottom: 36px;
+	margin-top: 15px;
+}
+
+.conch {
+	display: flex;
+	justify-content: center;
+}
+.questionbox {
+	box-sizing: border-box;
+	width: 332px;
+	height: 232px;
+	left: 38px;
+	top: 274px;
+	background: #f8f9ff;
+	border: 1px solid #c2cfff;
+	border-radius: 17.5132px;
+	color: #777777;
+	font-family: "SUIT";
+	font-size: 14px;
+}
+
+.questionbox-con {
+	display: flex;
+	justify-content: center;
+}
+
+.bt-con {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+}
+
+.back {
+	width: 154px;
+	height: 58px;
+	left: 38px;
+	top: 546px;
+	background: #eeeeee;
+	border-radius: 10px;
+	color: rgba(169, 169, 169, 1);
+}
+
+.go {
+	width: 154px;
+	height: 58px;
+	left: 216px;
+	top: 546px;
+	background: #6a8aff;
+	border-radius: 10px;
+	color: white;
+}
+
+.bt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	line-height: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+textarea::placeholder {
+	font-family: "SUIT";
+	font-size: 14px;
+	text-decoration: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+textarea {
+	padding: 20px;
+    padding-bottom: 180px;
+    overflow:hidden;
+}
