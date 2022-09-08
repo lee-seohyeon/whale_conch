@@ -83,6 +83,7 @@ html {
 	line-height: 12px;
 	margin-left: 12px;
 	margin-right: 12px;
+    text-decoration: none;
 }
 
 textarea::placeholder {
