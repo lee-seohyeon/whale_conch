@@ -18,7 +18,6 @@ html {
 	margin-top: 35px;
 	width: 214px;
 	height: 80px;
-	margin-left: 97px;
 }
 
 .ansbox {
@@ -28,18 +27,16 @@ html {
 	border: 1px solid #c2cfff;
 	border-radius: 17.5132px;
 	margin-left: 38px;
-    margin-top: 350px;
-    position: absolute;
+	margin-top: 350px;
+	position: absolute;
 }
-
-
 
 .sidebuttoncon {
 	display: flex;
 	flex-direction: column;
-    margin-top: 200px;
-    position: absolute;
-    margin-left: 345px;
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 345px;
 }
 
 .imgsave-bt,
@@ -52,7 +49,7 @@ html {
 .heart-bt {
 	width: 31px;
 	height: 28.44px;
-    margin-right: 36px;
+	margin-right: 36px;
 }
 
 .retry-bt {
@@ -61,9 +58,9 @@ html {
 }
 
 .buttoncon {
-    margin-top: 280px;
-    position: absolute;
-    margin-left: 157px;
+	margin-top: 280px;
+	position: absolute;
+	margin-left: 157px;
 }
 
 .ansbox-title {
@@ -77,11 +74,30 @@ html {
 	padding: 30px;
 }
 
-.answer{
-    font-family: "SUIT";
-    font-weight: 500;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 14px;
-    color: #777777;
+.answer {
+	font-family: "SUIT";
+	font-weight: 500;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	color: #777777;
+}
+
+.bubblecon {
+	display: flex;
+	align-items: center;
+}
+
+.ans-bubble {
+	margin-top: 35px;
+	width: 214px;
+	height: 80px;
+    margin-left: 60px;
+}
+
+.back-bt {
+	width: 17px;
+	height: 15.27px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
