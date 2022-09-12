@@ -6,13 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>result</title>
 		<link rel="stylesheet" href="../css/result.css" />
+        <script defer src="../data/data.js"></script>
+		<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+		<script src="../data/data.json" type="text/javascript"></script>
+		<script src="../data/answer.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 		<div class="bubblecon">
 			<img class="ans-bubble" src="../img/ans-bubble.png" />
 		</div>
-
-		<!-- <img class="ansbox" src="../img/ansbox.png" /> -->
 
 		<div class="buttoncon">
 			<img class="heart-bt" src="../img/heart-bt.png" />
@@ -25,9 +28,20 @@
 		</div>
 
 		<div class="ansboxcon">
-			<div class="ansbox">
+			<div class="ansbox" id="answerbox">
 				<div class="ansbox-title">소라고동님의 말씀</div>
+				<div class="answer" id="answer"></div>
 			</div>
 		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.6.1.min.js"
+			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			crossorigin="anonymous"
+		></script>
+
+		<script>
+			$(".answer-data").html("바꾼거");
+		</script>
 	</body>
 </html>

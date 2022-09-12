@@ -4,9 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>result</title>
+		<title>q-result</title>
 		<link rel="stylesheet" href="../css/q-result.css" />
 		<script defer src="../data/data.js"></script>
+		<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+		<script src="../data/data.json" type="text/javascript"></script>
+		<script src="../data/answer.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 		<div class="bubblecon">
@@ -24,9 +28,9 @@
 		</div>
 
 		<div class="ansboxcon">
-			<div class="ansbox">
+			<div class="ansbox" id="answerbox">
 				<div class="ansbox-title">나의 질문 내용</div>
-				<div class="answer">원래자리.. 답변이 들어가야함</div>
+				<div class="answer" id="answer"></div>
 			</div>
 		</div>
 
@@ -36,8 +40,8 @@
 			crossorigin="anonymous"
 		></script>
 
-        <script>
-            $('.answer-data').html('바꾼거');
-        </script>
+		<script>
+			$(".answer-data").html("바꾼거");
+		</script>
 	</body>
 </html>
