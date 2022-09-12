@@ -1,0 +1,52 @@
+body {
+	/* background-image: url("../img/maingif.gif"); */
+	background-image: url("../img/retrybackground.png");
+	background-size: cover;
+	margin: 0;
+	width: 408px;
+	height: 664px;
+    font-family: "SUIT";
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.bt-con {
+	display: flex;
+	justify-content: center;
+	margin-top: 545px;
+}
+
+.back {
+	width: 154px;
+	height: 58px;
+	left: 38px;
+	top: 546px;
+	background: #eeeeee;
+	border-radius: 10px;
+	color: rgba(169, 169, 169, 1);
+}
+
+.go {
+	width: 154px;
+	height: 58px;
+	left: 216px;
+	top: 546px;
+	background: #6a8aff;
+	border-radius: 10px;
+	color: white;
+}
+
+.bt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	line-height: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	text-decoration: none;
+}
