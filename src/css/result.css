@@ -32,16 +32,7 @@ html {
     position: absolute;
 }
 
-.ansbox-title {
-	font-family: "SUIT";
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 12px;
-	letter-spacing: -0.02em;
-	color: #4b4b4b;
-	padding: 30px;
-}
+
 
 .sidebuttoncon {
 	display: flex;
@@ -73,4 +64,24 @@ html {
     margin-top: 280px;
     position: absolute;
     margin-left: 157px;
+}
+
+.ansbox-title {
+	font-family: "SUIT";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 12px;
+	letter-spacing: -0.02em;
+	color: #4b4b4b;
+	padding: 30px;
+}
+
+.answer{
+    font-family: "SUIT";
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    color: #777777;
 }
