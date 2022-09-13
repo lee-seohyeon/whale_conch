@@ -18,7 +18,12 @@
 		</div>
 
 		<div class="buttoncon">
-			<img class="heart-bt" src="../img/heart-bt.png" />
+			<img
+				onclick="changeImg()"
+				id="imgheart"
+				class="heart-bt"
+				src="../img/heart-bt.png"
+			/>
 			<a href="./retry.html"><img class="retry-bt" src="../img/retry-bt.png" /></a>
 		</div>
 
@@ -34,14 +39,21 @@
 			</div>
 		</div>
 
-		<script
+		<!-- <script
 			src="https://code.jquery.com/jquery-3.6.1.min.js"
 			integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
 			crossorigin="anonymous"
-		></script>
+		></script> -->
+
+		<!-- <script>
+			$(".answer-data").html("바꾼거");
+		</script> -->
 
 		<script>
-			$(".answer-data").html("바꾼거");
+			function changeImg() {
+				document.getElementById("imgheart").src = "../img/fullheart-bt.png";
+				document.body.style.backgroundImage = "url('../img/heartbackground.gif')";
+			}
 		</script>
 	</body>
 </html>

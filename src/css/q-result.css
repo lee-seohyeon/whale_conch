@@ -14,12 +14,6 @@ html {
 	justify-content: center;
 }
 
-.ans-bubble {
-	margin-top: 35px;
-	width: 214px;
-	height: 80px;
-	margin-left: 97px;
-}
 
 .ansbox {
 	width: 332px;
@@ -84,4 +78,23 @@ html {
     padding-right: 30px;
     font-size: 14px;
     color: #777777;
+}
+
+.bubblecon {
+	display: flex;
+	align-items: center;
+}
+
+.ans-bubble {
+	margin-top: 35px;
+	width: 214px;
+	height: 80px;
+    margin-left: 60px;
+}
+
+.back-bt {
+	width: 17px;
+	height: 15.27px;
+    margin-left: 30px;
+    margin-top: 25px;
 }
