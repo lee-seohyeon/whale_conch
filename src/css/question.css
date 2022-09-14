@@ -129,7 +129,7 @@ button {
 .modalBox {
 	position: absolute;
 	background-color: #fff;
-    width: 332px;
+    width: 290px;
     height: 395px;
 	padding: 15px;
 	display: flex;
@@ -162,6 +162,9 @@ p {
 }
 
 .closeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	width: 260px;
 	height: 50px;
 	background: #6a8aff;

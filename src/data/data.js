@@ -1,7 +1,3 @@
-// const answer = document.getElementById(`answer`);
-// const random = Math.floor(Math.random() * data.length);
-// answer.textContent = arr[random].quote;
-
 const answerElem = document.getElementById(`answer`);
 let myQuestion = sessionStorage.getItem("myQuestion");
 if (myQuestion !== undefined && myQuestion !== null) {
@@ -61,7 +57,7 @@ function questionShot() {
 
 
 const saveBtn = document.querySelector(".imgsave-bt")
-saveBtn.addEventListener("click", questionShot)
+saveBtn.addEventListener("click", screenShot)
 
 function saveAs(uri, filename) {
 	var link = document.createElement('a');
@@ -75,23 +71,3 @@ function saveAs(uri, filename) {
 		window.open(uri);
 	}
 }
-
-
-
-
-// const data = [
-// 	{
-// 		category: "love",
-// 		ans: "연애 예시답변 1",
-// 	},
-// 	{
-// 		category: "love",
-// 		ans: "연애 예시답변 2",
-// 	},
-// 	{
-// 		category: "daily",
-// 		ans: "일상 예시답변 1",
-// 	},
-// ];
-
-// export default data;
