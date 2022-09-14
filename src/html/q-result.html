@@ -15,10 +15,11 @@
 		<div class="bubblecon">
 			<a href="./main.html"><img class="back-bt" src="../img/back-bt.png" /></a>
 			<img class="ans-bubble" src="../img/emptybubble.png" />
+			<!-- 여기(말풍선 위)에 랜덤답변 가져와야함-->
 		</div>
 
 		<div class="buttoncon">
-			<img class="heart-bt" id="imgheart" src="../img/heart-bt.png" />
+			<img class="heart-bt" onclick="changeImg()" id="imgheart" src="../img/heart-bt.png" />
 			<a href="./retry.html"><img class="retry-bt" src="../img/retry-bt.png" /></a>
 		</div>
 
@@ -31,12 +32,14 @@
 			<div class="ansbox" id="answerbox">
 				<div class="floor">
 					<div class="ansbox-title">나의 질문 내용</div>
+					<!-- 시계 시작 -->
 					<div class="clockcon">
 						<span id="clock">clock</span>
 					</div>
 				</div>
 				<!-- 시계 끝 -->
 				<div class="answer" id="answer"></div>
+				<!-- 내 질문 가져옴 -->
 			</div>
 		</div>
 
