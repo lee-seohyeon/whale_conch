@@ -1,0 +1,63 @@
+body {
+	background-color: rgba(248, 249, 255, 1);
+	margin: 0;
+	width: 408px;
+	height: 664px; 
+}
+
+html {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.logo img {
+	width: 125.65px;
+	height: 33.64px;
+	margin-left: 26px;
+	margin-top: 26px;
+}
+
+.pickmenu img {
+	width: 332px;
+	height: 76px;
+	margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.pickmenu {
+	display: flex;
+	justify-content: center;
+}
+
+.ca-con {
+	display: flex;
+    flex-wrap: wrap;
+    margin-left:58px;
+    margin-right: 58px;
+}
+
+.ca-bu {
+    font-family: 'SUIT';
+    color: rgba(75, 75, 75, 1);
+    font-size: 15px;
+	background-color: white;
+	width: 114px;
+	height: 32px;
+	box-shadow: 0px 0px 15px rgba(106, 138, 255, 0.1);
+	border-radius: 15.6686px;
+    margin-bottom: 54px;
+    margin-right: 12px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.non-click {
+    background-color: white;
+  }
+  
+  .click {
+    background-color: rgba(194, 207, 255, 1);
+  }

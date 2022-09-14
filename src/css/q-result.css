@@ -98,3 +98,15 @@ html {
     margin-left: 30px;
     margin-top: 25px;
 }
+
+.floor{
+    display: flex;
+    align-items: center;
+}
+
+.clockcon{
+    margin-left: 70px;
+    color:rgba(169, 169, 169, 1);
+    font-size: 14px;
+    margin-top: 5px;
+}
