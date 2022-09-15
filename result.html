@@ -32,15 +32,29 @@
 			<img class="share-bt openModal" src="src/img/share-bt.png" />
 		</div>
 
-		<div class="blackdom>">
-			<div class="modaldom">
-				<div class="modal hidden">
-					<p>공유하기</p>
+        <!-- 모달 시작  -->
+		<!-- <div class="modaldom">
+			<div class="modal hidden">
+				<div class="bg"></div>
+				<div class="modalbox">
+					<p>공유할 SNS를 선택해주세요!</p>
 					<div class="addthis_inline_share_toolbox"></div>
 					<div class="closeModal">닫기</div>
 				</div>
 			</div>
+		</div> -->
+
+        <button class="openModal"></button>
+		<div class="modal hidden">
+			<div class="bg"></div>
+			<div class="modalBox">
+				<p>공유할 SNS를 선택해주세요!</p>
+                <div class="addthis_inline_share_toolbox"></div>
+				<div class="closeModal">닫기</div>
+			</div>
 		</div>
+
+        <!-- 모달 끗 -->
 
 		<div class="ansboxcon">
 			<div class="ansbox" id="answerbox">
@@ -71,8 +85,7 @@
 				open.addEventListener("click", function () {
 					modal.classList.remove("hidden");
 					//OPEN버튼을 누르면 hidden이라는 클래스가 있으면 없앤다.
-                    // document.body.style.backgroundImage =
-					// "url('src/img/modalblack.png')";
+					moda.classList.add("black");
 				});
 				close.addEventListener("click", function () {
 					modal.classList.add("hidden");
