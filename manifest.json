@@ -3,6 +3,6 @@
     "name":"conch",
     "version":"1.0.0",
     "sidebar-action": {
-        "default_page": "html/main.html"
+        "default_page": "html/index.html"
 } 
 }

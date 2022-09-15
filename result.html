@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<div class="bubblecon" id="test">
-			<a href="main.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
+			<a href="index.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
 			<img class="ans-bubble" src="src/img/ans-bubble.png" />
 		</div>
 
@@ -30,21 +30,20 @@
 		<div class="sidebuttoncon">
 			<img class="imgsave-bt" src="src/img/imgsave-bt.png" />
 			<img class="share-bt" src="src/img/share-bt.png" />
-            <div class="addthis_inline_share_toolbox"></div>
+			<div class="addthis_inline_share_toolbox"></div>
 		</div>
 
 		<div class="ansboxcon">
 			<div class="ansbox" id="answerbox">
 				<div class="floor">
 					<div class="ansbox-title">소라고동님의 말씀</div>
-                    <div id="answer_result"></div>
+
 					<div class="clockcon">
 						<span id="clock">clock</span>
-						<!-- <span id="apm">ampm</span> -->
 					</div>
 					<!-- 시계 끝 -->
 				</div>
-				<div class="answer" id="answer"></div>
+				<div class="answer" id="answer"><div id="answer_result"></div></div>
 			</div>
 		</div>
 
@@ -57,7 +56,8 @@
 		<script>
 			function changeImg() {
 				document.getElementById("imgheart").src = "src/img/fullheart-bt.png";
-				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif'), url('src/img/mainimg.png')")
+				document.body.style.backgroundImage =
+					"url('src/img/heartbackground.gif'), url('src/img/mainimg.png')";
 			}
 
 			// 시계
