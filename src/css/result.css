@@ -115,6 +115,7 @@ html {
 }
 
 .addthis_inline_share_toolbox{
-    /* display: none; */
     margin-left: 20px;
+    margin-top:120%;
+    position: absolute;
 }

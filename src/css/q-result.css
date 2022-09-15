@@ -14,7 +14,6 @@ html {
 	justify-content: center;
 }
 
-
 .ansbox {
 	width: 332px;
 	height: 170px;
@@ -22,18 +21,16 @@ html {
 	border: 1px solid #c2cfff;
 	border-radius: 17.5132px;
 	margin-left: 38px;
-    margin-top: 350px;
-    position: absolute;
+	margin-top: 350px;
+	position: absolute;
 }
-
-
 
 .sidebuttoncon {
 	display: flex;
 	flex-direction: column;
-    margin-top: 200px;
-    position: absolute;
-    margin-left: 345px;
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 345px;
 }
 
 .imgsave-bt,
@@ -46,7 +43,7 @@ html {
 .heart-bt {
 	width: 31px;
 	height: 28.44px;
-    margin-right: 36px;
+	margin-right: 36px;
 }
 
 .retry-bt {
@@ -55,9 +52,9 @@ html {
 }
 
 .buttoncon {
-    margin-top: 280px;
-    position: absolute;
-    margin-left: 157px;
+	margin-top: 280px;
+	position: absolute;
+	margin-left: 157px;
 }
 
 .ansbox-title {
@@ -71,42 +68,65 @@ html {
 	padding: 30px;
 }
 
-.answer{
-    font-family: "SUIT";
-    font-weight: 500;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 14px;
-    color: #777777;
-}
-
-.bubblecon {
-	display: flex;
-	align-items: center;
+.answer {
+	font-family: "SUIT";
+	font-weight: 500;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	color: #777777;
 }
 
 .ans-bubble {
 	margin-top: 35px;
-    width: 250px;
-    height: 90px;
-    margin-left: 40px;
+	width: 250px;
+	height: 90px;
+	margin-left: 40px;
 }
 
 .back-bt {
 	width: 17px;
 	height: 15.27px;
-    margin-left: 30px;
-    margin-top: 25px;
+	margin-left: 30px;
+	margin-top: 25px;
 }
 
-.floor{
-    display: flex;
-    align-items: center;
+.floor {
+	display: flex;
+	align-items: center;
 }
 
-.clockcon{
-    margin-left: 40px;
-    color:rgba(169, 169, 169, 1);
-    font-size: 14px;
-    margin-top: 5px;
+.clockcon {
+	margin-left: 40px;
+	color: rgba(169, 169, 169, 1);
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.bubblecon {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.random_answer {
+	font-family: "SUIT";
+	color: #6a8aff;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	/* or 143% */
+	font-size: 14px;
+	position: absolute;
+	/* top: 40%;
+	left: 50%; */
+	width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, -30%);
+    text-align: center;
+    word-break:break-all;
+    text-overflow:clip;
+    width: 200px;
 }
