@@ -15,19 +15,36 @@
 		<div class="bubblecon">
 			<a href="index.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
 			<img class="ans-bubble" src="src/img/emptybubble.png" />
-            <div class="random_answer" id="random_answer"></div>
+			<div class="random_answer" id="random_answer"></div>
 			<!-- 여기(말풍선 위)에 랜덤답변 가져와야함-->
 		</div>
 
 		<div class="buttoncon">
-            <img class="heart-bt" onclick="changeImg()" id="imgheart" src="src/img/heart-bt.png" />
+			<img
+				class="heart-bt"
+				onclick="changeImg()"
+				id="imgheart"
+				src="src/img/heart-bt.png"
+			/>
 			<a href="retry.html"><img class="retry-bt" src="src/img/retry-bt.png" /></a>
 		</div>
 
 		<div class="sidebuttoncon">
 			<img class="imgsave-bt" src="src/img/imgsave-bt.png" />
-			<img class="share-bt" src="src/img/share-bt.png" />
+			<img class="share-bt openModal" src="src/img/share-bt.png" />
 		</div>
+
+		<button class="openModal"></button>
+		<div class="modal hidden">
+			<div class="bg"></div>
+			<div class="modalBox">
+				<p>공유할 SNS를 선택해주세요!</p>
+				<div class="addthis_inline_share_toolbox"></div>
+				<div class="closeModal">닫기</div>
+			</div>
+		</div>
+
+		<!-- 모달 끗 -->
 
 		<div class="ansboxcon">
 			<div class="ansbox" id="answerbox">
@@ -45,9 +62,28 @@
 		</div>
 
 		<script>
+			//모달
+			const open = document.querySelector(".openModal");
+			const close = document.querySelector(".closeModal");
+			const modal = document.querySelector(".modal");
+
+			function mymodal() {
+				open.addEventListener("click", function () {
+					modal.classList.remove("hidden");
+					//OPEN버튼을 누르면 hidden이라는 클래스가 있으면 없앤다.
+					moda.classList.add("black");
+				});
+				close.addEventListener("click", function () {
+					modal.classList.add("hidden");
+				}); //CLOSE버튼을 누르면 hidden이라는 클래스를 추가한다.
+			}
+
+			mymodal();
+
 			function changeImg() {
 				document.getElementById("imgheart").src = "src/img/fullheart-bt.png";
-				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif'), url('src/img/mainimg.png')")
+				document.body.style.backgroundImage =
+					"url('src/img/heartbackground.gif'), url('src/img/mainimg.png')";
 			}
 
 			// 시계
@@ -73,5 +109,10 @@
 			clock();
 			setInterval(clock, 1000); // 1초마다 실행
 		</script>
+
+		<script
+			type="text/javascript"
+			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6321845b9ce3df28"
+		></script>
 	</body>
 </html>
