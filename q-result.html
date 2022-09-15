@@ -15,11 +15,12 @@
 		<div class="bubblecon">
 			<a href="main.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
 			<img class="ans-bubble" src="src/img/emptybubble.png" />
+            <div id="random_answer"></div>
 			<!-- 여기(말풍선 위)에 랜덤답변 가져와야함-->
 		</div>
 
 		<div class="buttoncon">
-			<img class="heart-bt" onclick="changeImg()" id="imgheart" src="src/img/heart-bt.png" />
+            <img class="heart-bt" onclick="changeImg()" id="imgheart" src="src/img/heart-bt.png" />
 			<a href="retry.html"><img class="retry-bt" src="src/img/retry-bt.png" /></a>
 		</div>
 
@@ -46,8 +47,7 @@
 		<script>
 			function changeImg() {
 				document.getElementById("imgheart").src = "src/img/fullheart-bt.png";
-				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif')"),
-					"url('src/img/mainimg.png')";
+				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif'), url('src/img/mainimg.png')")
 			}
 
 			// 시계

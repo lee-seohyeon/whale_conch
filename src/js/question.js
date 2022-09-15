@@ -18,8 +18,11 @@ const clickQuestion = () => {
 		open()
 		return
 	}
+
+	let receivedData = location.href.split('?')[1];
+
 	sessionStorage.setItem("myQuestion", questionContent.value)
-	location.href = `q-result.html?`;
+	location.href = `q-result.html?${receivedData}`;
 }
 
 document.querySelector("#btn_question").addEventListener("click", clickQuestion);

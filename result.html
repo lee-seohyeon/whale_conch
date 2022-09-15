@@ -12,7 +12,7 @@
 		<script src="src/data/answer.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<div class="bubblecon">
+		<div class="bubblecon" id="test">
 			<a href="main.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
 			<img class="ans-bubble" src="src/img/ans-bubble.png" />
 		</div>
@@ -37,6 +37,7 @@
 			<div class="ansbox" id="answerbox">
 				<div class="floor">
 					<div class="ansbox-title">소라고동님의 말씀</div>
+                    <div id="answer_result"></div>
 					<div class="clockcon">
 						<span id="clock">clock</span>
 						<!-- <span id="apm">ampm</span> -->
@@ -56,8 +57,7 @@
 		<script>
 			function changeImg() {
 				document.getElementById("imgheart").src = "src/img/fullheart-bt.png";
-				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif')"),
-					"url('src/img/mainimg.png')";
+				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif'), url('src/img/mainimg.png')")
 			}
 
 			// 시계
