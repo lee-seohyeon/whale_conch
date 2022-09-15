@@ -5,16 +5,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>result</title>
-		<link rel="stylesheet" href="../css/result.css" />
-		<script defer src="../data/data.js"></script>
+		<link rel="stylesheet" href="src/css/result.css" />
+		<script defer src="src/data/data.js"></script>
 		<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-		<script src="../data/data.json" type="text/javascript"></script>
-		<script src="../data/answer.js" type="text/javascript"></script>
+		<script src="src/data/data.json" type="text/javascript"></script>
+		<script src="src/data/answer.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="bubblecon">
-			<a href="./main.html"><img class="back-bt" src="../img/back-bt.png" /></a>
-			<img class="ans-bubble" src="../img/ans-bubble.png" />
+			<a href="main.html"><img class="back-bt" src="src/img/back-bt.png" /></a>
+			<img class="ans-bubble" src="src/img/ans-bubble.png" />
 		</div>
 
 		<div class="buttoncon">
@@ -22,14 +22,14 @@
 				onclick="changeImg()"
 				id="imgheart"
 				class="heart-bt"
-				src="../img/heart-bt.png"
+				src="src/img/heart-bt.png"
 			/>
-			<a href="./retry.html"><img class="retry-bt" src="../img/retry-bt.png" /></a>
+			<a href="retry.html"><img class="retry-bt" src="src/img/retry-bt.png" /></a>
 		</div>
 
 		<div class="sidebuttoncon">
-			<img class="imgsave-bt" src="../img/imgsave-bt.png" />
-			<img class="share-bt" src="../img/share-bt.png" />
+			<img class="imgsave-bt" src="src/img/imgsave-bt.png" />
+			<img class="share-bt" src="src/img/share-bt.png" />
             <div class="addthis_inline_share_toolbox"></div>
 		</div>
 
@@ -55,9 +55,9 @@
 
 		<script>
 			function changeImg() {
-				document.getElementById("imgheart").src = "../img/fullheart-bt.png";
-				(document.body.style.backgroundImage = "url('../img/heartbackground.gif')"),
-					"url('../img/mainimg.png')";
+				document.getElementById("imgheart").src = "src/img/fullheart-bt.png";
+				(document.body.style.backgroundImage = "url('src/img/heartbackground.gif')"),
+					"url('src/img/mainimg.png')";
 			}
 
 			// 시계
