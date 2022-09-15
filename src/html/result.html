@@ -30,23 +30,28 @@
 		<div class="sidebuttoncon">
 			<img class="imgsave-bt" src="../img/imgsave-bt.png" />
 			<img class="share-bt" src="../img/share-bt.png" />
+            <div class="addthis_inline_share_toolbox"></div>
 		</div>
 
 		<div class="ansboxcon">
 			<div class="ansbox" id="answerbox">
-                <div class="floor">
-				<div class="ansbox-title">소라고동님의 말씀</div>
-                <div class="clockcon">
-                    <span id="clock">clock</span>
-                    <!-- <span id="apm">ampm</span> -->
-                </div>
-                <!-- 시계 끝 -->
-            </div>
+				<div class="floor">
+					<div class="ansbox-title">소라고동님의 말씀</div>
+					<div class="clockcon">
+						<span id="clock">clock</span>
+						<!-- <span id="apm">ampm</span> -->
+					</div>
+					<!-- 시계 끝 -->
+				</div>
 				<div class="answer" id="answer"></div>
 			</div>
 		</div>
 
-
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script
+			type="text/javascript"
+			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6321845b9ce3df28"
+		></script>
 
 		<script>
 			function changeImg() {
@@ -56,26 +61,27 @@
 			}
 
 			// 시계
-            var Target = document.getElementById("clock");
-        function clock() {
-            var time = new Date();
+			var Target = document.getElementById("clock");
+			function clock() {
+				var time = new Date();
 
-            var month = time.getMonth();
-            var date = time.getDate();
-            var day = time.getDay();
-            var week = ['일', '월', '화', '수', '목', '금', '토'];
+				var month = time.getMonth();
+				var date = time.getDate();
+				var day = time.getDay();
+				var week = ["일", "월", "화", "수", "목", "금", "토"];
 
-            var hours = time.getHours();
-            var minutes = time.getMinutes();
-            var seconds = time.getSeconds();
+				var hours = time.getHours();
+				var minutes = time.getMinutes();
+				var seconds = time.getSeconds();
 
-            Target.innerText = 
-            `${month + 1}월 ${date}일 ${week[day]} ` +
-            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
-                
-        }
-        clock();
-        setInterval(clock, 1000); // 1초마다 실행
-        </script>
+				Target.innerText =
+					`${month + 1}월 ${date}일 ${week[day]} ` +
+					`${hours < 10 ? `0${hours}` : hours}:${
+						minutes < 10 ? `0${minutes}` : minutes
+					}:${seconds < 10 ? `0${seconds}` : seconds}`;
+			}
+			clock();
+			setInterval(clock, 1000); // 1초마다 실행
+		</script>
 	</body>
 </html>

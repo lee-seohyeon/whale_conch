@@ -113,3 +113,8 @@ html {
     font-size: 14px;
     margin-top: 5px;
 }
+
+.addthis_inline_share_toolbox{
+    /* display: none; */
+    margin-left: 20px;
+}
