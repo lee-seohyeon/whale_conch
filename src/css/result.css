@@ -28,7 +28,7 @@ html {
 	border-radius: 17.5132px;
 	margin-left: 38px;
 	margin-top: 350px;
-	position: absolute;
+	/* position: absolute; */
 }
 
 .sidebuttoncon {
@@ -92,30 +92,83 @@ html {
 	margin-top: 35px;
 	width: 214px;
 	height: 80px;
-    margin-left: 60px;
+	margin-left: 60px;
 }
 
 .back-bt {
 	width: 17px;
 	height: 15.27px;
-    margin-left: 30px;
-    margin-top: 25px;
+	margin-left: 30px;
+	margin-top: 25px;
 }
 
-
-.floor{
-    display: flex;
-    align-items: center;
+.floor {
+	display: flex;
+	align-items: center;
 }
 
-.clockcon{
-    color:rgba(169, 169, 169, 1);
-    font-size: 14px;
-    margin-top: 5px;
+.clockcon {
+	color: rgba(169, 169, 169, 1);
+	font-size: 14px;
+	margin-top: 5px;
 }
 
-.addthis_inline_share_toolbox{
-    margin-left: 20px;
-    margin-top:120%;
-    position: absolute;
+.addthis_inline_share_toolbox {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+/* 모달창 */
+
+.modal {
+	font-family: "SUIT";
+    font-size: 18px;
+
+	position: absolute;
+	background-color: #fff;
+	width: 290px;
+	height: 395px;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #c2cfff;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 17.5132px;
+	color: #4b4b4b;
+}
+
+.hidden {
+	display: none;
+}
+
+.closeModal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 260px;
+	height: 50px;
+	background: #6a8aff;
+	border-radius: 10px;
+	color: white;
+	border: none;
+	font-family: "SUIT";
+	font-size: 18px;
+	margin-top: 34px;
+}
+
+.modaldom {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.blackdom {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
 }

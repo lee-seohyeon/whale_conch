@@ -1,8 +1,12 @@
 {
-    "manifest_version":2,
+    "manifest_version":3,
     "name":"conch",
     "version":"1.0.0",
-    "sidebar-action": {
-        "default_page": "html/index.html"
-} 
+    "background": {
+        "service_worker": "index.html"
+      },
+    "action": {
+        "default_page": "index.html"
+    } 
+
 }
