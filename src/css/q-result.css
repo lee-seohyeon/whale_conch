@@ -97,9 +97,10 @@ html {
 }
 
 .clockcon {
+    font-family: "SUIT";
 	margin-left: 40px;
 	color: rgba(169, 169, 169, 1);
-	font-size: 14px;
+	font-size: 12px;
 	margin-top: 5px;
 }
 
